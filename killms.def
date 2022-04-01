@@ -20,7 +20,7 @@ From: ubuntu:20.04
     
     python3.7 ${SINGULARITY_ROOTFS}/singularity_build/get-pip.py
     python3.7 -m pip install DDFacet
-    python3.7 -m pip install ${SINGULARITY_ROOTFS}/singularity_build/killMS.git
+    python3.7 -m pip install ${SINGULARITY_ROOTFS}/singularity_build/killMS
     
 
 %files 
